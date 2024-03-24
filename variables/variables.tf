@@ -7,9 +7,9 @@ variable "y_list" {
 }
 
 output "x" {
-  value = "var.x"
+  value = var.x
 }
 
 output "y_lisy" {
-  value = "var.y_list"
+  value = var.y_list
 }
